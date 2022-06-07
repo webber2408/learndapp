@@ -1,0 +1,104 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.headerWrapper {
+  display: flex;
+}
+.left {
+  width: 50%;
+  padding-top: 180px;
+  padding-left: 100px;
+}
+.left__title {
+  font-size: 1.2vw;
+}
+.left__content {
+  font-weight: 600;
+  font-size: 3.6vw;
+  text-align: left;
+  margin-bottom: 20px;
+}
+.left__button {
+  margin-top: 50px;
+  height: 48px;
+  font-size: 1.2vw;
+  padding: 0px 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--header-btn);
+  border-radius: 0px;
+  outline: none;
+  border: 0px;
+  color: var(--header-btn-inverse);
+  font-weight: 500;
+  max-width: 320px;
+}
+.right {
+  width: 50%;
+  height: calc(100vh - 60px);
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.right > img {
+  width: 75%;
+  height: 65%;
+}
+
+@media screen and (max-width: 768px) {
+  .right {
+    display: none;
+  }
+  .left {
+    width: 100%;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding: 50px;
+  }
+  .left__title {
+    font-size: 12px;
+  }
+  .left__content {
+    font-size: 36px;
+  }
+  .left__button {
+    font-size: 14px;
+    padding: 0px 40px;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .left {
+    padding: 25px;
+  }
+  .left__title {
+    margin-bottom: 20px;
+  }
+  .left__content {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  .left__subContent {
+    font-size: 16px;
+    margin: 20px 0px;
+  }
+}
