@@ -2,6 +2,7 @@
  * CSS files with the .module.css suffix will be treated as CSS modules
  * and scoped locally.
  */
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
 
 .heroBanner {
   padding: 4rem 0;
@@ -27,6 +28,9 @@
 .left__title {
   font-size: 1.2vw;
 }
+.cursive {
+  font-family: "Pacifico", cursive;
+}
 .left__content {
   font-weight: 600;
   font-size: 3.6vw;
@@ -48,6 +52,12 @@
   color: var(--header-btn-inverse);
   font-weight: 500;
   max-width: 320px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.left__button:hover {
+  background-color: var(--header-btn-hover);
+  color: var(--header-btn-hover-inverse);
 }
 .right {
   width: 50%;

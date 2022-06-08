@@ -57,10 +57,12 @@ const config = {
     ({
       navbar: {
         title: "Learn Dapp",
-        logo: {
-          alt: "LD Logo",
-          src: "img/logo.svg",
-        },
+        // logo: {
+        //   alt: "LD Logo",
+        //   src: "img/logo.svg",
+        //   width: "20px",
+        //   height: 40,
+        // },
         items: [
           {
             type: "doc",
