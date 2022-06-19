@@ -1,7 +1,7 @@
 ---
 title: "What to expect?"
 authors: [rahul]
-sidebar_label: "Introduction"
+sidebar_label: "Blog Introduction"
 sidebar_position: 1
 ---
 

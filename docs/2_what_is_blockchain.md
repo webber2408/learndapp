@@ -1,7 +1,7 @@
 ---
 title: "What is Blockchain?"
 authors: [rahul]
-sidebar_label: "What is Blockchain?"
+sidebar_label: "Blockchain"
 sidebar_position: 2
 ---
 
