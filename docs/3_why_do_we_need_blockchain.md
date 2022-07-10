@@ -41,7 +41,7 @@ How amazing is that?
 
 ![](https://media.giphy.com/media/rVVFWyTINqG7C/giphy.gif)
 
-In this growing world, we need to learn to trust ourselves and each other as a community, we cannot be living our life trusting a central identity to maintain a certain decorum amongst things. For example, currently, when a person A transfers X amount to person B, the bank is the middle person which notes such a transaction, and we can do nothing but trust the bank in doing so!
+In this growing world, we need to learn to trust ourselves and each other as a community, we cannot be living our life trusting a central identity to maintain a certain decorum amongst things. For example, currently, when person A transfers X amount to person B, the bank is the middle person which notes such a transaction, and we can do nothing but trust the bank in doing so!
 
 ### Double Spending: Blockchain to the rescue.
 
